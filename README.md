@@ -1,7 +1,7 @@
 
 # Nitin Rana - Portfolio 🚀
 
-![Portfolio Preview](https://nitin-rana-portfolio-green.vercel.app/)
+
 
 ## Hi there! 👋 I'm Nitin Rana
 
