@@ -1,7 +1,7 @@
 
 # Nitin Rana - Portfolio 🚀
 
-![Portfolio Preview](https://via.placeholder.com/1200x600/1e3a8a/ffffff?text=Nitin+Rana+Portfolio)
+![Portfolio Preview](https://nitin-rana-portfolio-green.vercel.app/)
 
 ## Hi there! 👋 I'm Nitin Rana
 
@@ -30,7 +30,7 @@
 ---
 
 ## 🚀 Live Portfolio
-[👉 View Live Site](https://rana011-engg.github.io/nitin-rana-portfolio)
+[👉 View Live Site](https://nitin-rana-portfolio-green.vercel.app/)
 
 ## 📄 Resume
 [![Download Resume](https://img.shields.io/badge/Download_Resume-PDF-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](resume/resume.pdf)
