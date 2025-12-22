@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nitin Rana — Portfolio</title>
+  <meta name="description" content="Portfolio of Nitin Rana — Fresher Web Developer" />
+  
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <div class="container">
+      <div class="brand">
+        <img src="assets/nitin.jpeg" alt="Nitin Rana" class="brand-img">
+        <div>
+          <h1>Nitin Rana</h1>
+          <p class="subtitle">Fresher • Web & Backend Developer</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+       
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <img src="assets/nitin.jpeg" alt="Nitin Rana" class="hero-image">
+        <div>
+          <h2><span class="typing-text">Hello — I'm Nitin Rana</span><span class="cursor">|</span></h2>
+          <p class="lead">
+  I build robust backend systems and APIs using Java, Spring Boot, and databases like MySQL & MongoDB. 
+  Passionate about clean, scalable, and secure code.
+</p>
+          <a class="btn"
+   href="resume/resume.pdf"
+   target="_blank"
+   rel="noopener noreferrer">
+  View Resume (PDF)
+</a>
+
+            <a class="btn ghost" href="#projects">View Projects</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container">
+      <h3>About Me</h3>
+      <p>I am Nitin Rana, a B.Tech Computer Science student at IMS Engineering College (CGPA 8.1/10). I am passionate about backend development and building clean, scalable applications using Java, Spring Boot, and databases like MySQL & MongoDB.
+I have hands-on experience in building projects such as receipt scanning apps with JWT-secured PDF export and WhatsApp automation tools. I am looking for internships to apply my skills in real-world backend development projects.</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container">
+      <h3>Skills</h3>
+      <ul class="skills-list">
+  <li>Java & Core Concepts</li>
+  <li>Spring Boot</li>
+  <li>Hibernate (basics)</li>
+  <li>MySQL & MongoDB</li>
+  <li>HTML, CSS, Tailwind CSS</li>
+  <li>REST APIs</li>
+  <li>DSA & Problem Solving</li>
+  <li>Git & Postman</li>
+</ul>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container">
+      <h3>Projects</h3>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h4>SmartReceipt Pro</h4>
+          <p>Scan receipts via camera, convert to PDF, save data persistently, and recover deleted files. Built with Java backend + frontend.</p>
+          <a href="#" target="_blank" rel="noopener">View Repo</a>
+        </article>
+          <article class="project-card">
+    <h4>WhatsApp Auto Message Sender</h4>
+    <p>Java + Selenium-based automation utility to send repeated messages on WhatsApp Web using browser automation.</p>
+    <p><strong>Tech:</strong> Java, Selenium WebDriver, Chrome Driver, XPath</p>
+    <a href="#" target="_blank">View Repo / Demo</a>
+  </article>
+        <article class="project-card">
+          <h4>Message Bomber</h4>
+          <p>Automated message testing & load simulation tool using Java Spring Boot and multithreaded APIs.</p>
+          <a href="#" target="_blank" rel="noopener">View Repo</a>
+        </article>
+        <article class="project-card">
+          <h4>Portfolio Website</h4>
+          <p>Responsive personal portfolio with hero animations, typing effect, social links, and dark/light mode.</p>
+          <a href="#" target="_blank" rel="noopener">View Demo</a>
+        </article>
+        <article class="project-card">
+          <h4>Mini E-commerce UI</h4>
+          <p>Frontend product grid and cart UI, static design for learning and UI practice.</p>
+          <a href="#" target="_blank" rel="noopener">View Demo</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container">
+      <h3>Contact</h3>
+      <form id="contactForm">
+        <label>Name<input type="text" id="name" required></label>
+        <label>Email<input type="email" id="email" required></label>
+        <label>Message<textarea id="message" required></textarea></label>
+        <div class="form-actions">
+          <button type="submit" class="btn">Send</button>
+          <span id="status" aria-live="polite" class="status"></span>
+        </div>
+      </form>
+
+      <div class="contact-links">
+        <div class="contact-item">
+          <span class="label">Email:</span>
+          <a href="mailto:Nitinthakur50897@gmail.com">Nitin@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="label">GitHub:</span>
+          <a href="https://github.com/Rana011-engg" target="_blank">Nitin's github</a>
+        </div>
+        <div class="contact-item">
+          <span class="label">LinkedIn:</span>
+          <a href="https://www.linkedin.com/in/nitin-rana-194507292/?originalSubdomain=in" target="_blank">Nitin's linkedin</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="container">
+ <p>Made with ♥ by Nitin Rana — Java Backend Developer | Open to Internships</p>
+
+  </footer>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <!-- External JS -->
+  <script src="Script.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  
+
+</body>
+</html>
