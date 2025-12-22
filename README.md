@@ -1,4 +1,4 @@
-# nitin-rana-portfolio
+
 # Nitin Rana - Portfolio 🚀
 
 ![Portfolio Preview](https://via.placeholder.com/1200x600/1e3a8a/ffffff?text=Nitin+Rana+Portfolio)
